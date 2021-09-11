@@ -19,8 +19,12 @@ Staaatliches Bauhaus (1919-1933)
 
 console.log(bauhaus);
 
-document.addEventListener("mousemove"); {
+let elements = document.querySelectorAll("div");
+console.log(`This portrait contains ${elements.length} HTML div elements`);
+
+
+document.addEventListener("mousemove", () => {
   let mousex = event.clientX; // Gets Mouse X
   let mousey = event.clientY; // Gets Mouse Y
   console.log([mousex, mousey]); // Prints data
-}
+});

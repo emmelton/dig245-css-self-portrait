@@ -117,6 +117,7 @@ div{
   height: 20px;
   top: 98px;
   left: 231px;
+  z-index: 3;
 }
 
 .glass-left-b {
@@ -140,6 +141,7 @@ div{
   height: 20px;
   top: 98px;
   left: 248px;
+  z-index: 3;
 }
 
 .glass-right-top {
@@ -171,6 +173,7 @@ div{
   height: 4px;
   top: 105px;
   left: 233px;
+  z-index: 3;
 }
 
 .left-ear {
@@ -189,4 +192,65 @@ div{
   top: 107px;
   left: 279px;
   z-index: 2;
+}
+
+/* EYEBROWS */
+
+.br-color{
+  background: #523a22;
+}
+
+.right-brow1 {
+  width: 22px;
+  height: 5px;
+  top: 91px;
+  left: 213px;
+}
+
+.right-brow2 {
+  width: 9px;
+  height: 5px;
+  top: 92px;
+  left: 209px;
+}
+
+.left-brow1 {
+  width: 22px;
+  height: 5px;
+  top: 91px;
+  left: 248px;
+}
+
+.left-brow2 {
+  width: 9px;
+  height: 5px;
+  top: 92px;
+  left: 265px;
+}
+
+/*NOSE*/
+
+.nose-color {
+  background: #bfa288;
+}
+
+.n1 {
+  width: 9px;
+  height: 25px;
+  top: 99px;
+  left: 237px;
+}
+
+.n2 {
+  width: 13px;
+  height: 10px;
+  top: 115px;
+  left: 235px;
+}
+
+.n3 {
+  width: 17px;
+  height: 6px;
+  top: 122px;
+  left: 233px;
 }
