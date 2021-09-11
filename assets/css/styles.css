@@ -1,2 +1,192 @@
+div{
+  position: absolute;
+}
 
-/* css */
+.color-face {
+  background: #DABCA1;
+}
+
+.face {
+  width: 85px;
+  height: 110px;
+  top: 58px;
+  left: 200px;
+}
+
+.chin {
+  border-radius: 7px;
+  width: 56px;
+  height: 80px;
+  left: 213px;
+  top: 95px;
+}
+
+.chin-left {
+  border-radius: 7px;
+  transform: rotate(28deg);
+  width: 23px;
+  height: 30px;
+  left: 205px;
+  top: 143px;
+}
+
+.chin-right {
+  border-radius: 7px;
+  transform: rotate(156deg);
+  width: 23px;
+  height: 30px;
+  left: 256px;
+  top: 143px;
+}
+
+.color-hair {
+  background: #292021;
+}
+
+.top-hair {
+  width: 103px;
+  height: 15px;
+  top: 58px;
+  left: 190px;
+}
+
+.right-hair-main {
+  border-radius: 24px;
+  width: 22px;
+  height: 157px;
+  top: 58px;
+  left: 181px;
+}
+
+.left-hair-main {
+  border-radius: 24px;
+  width: 22px;
+  height: 157px;
+  top: 58px;
+  left: 282px;
+}
+
+.left-hair-corner {
+  border-radius: 7px;
+  transform: rotate(169deg);
+  width: 78.3px;
+  height: 16px;
+  left: 189px;
+  top: 64px;
+}
+
+.right-hair-corner {
+  border-radius: 7px;
+  transform: rotate(60deg);
+  width: 34.3px;
+  height: 10px;
+  left: 263px;
+  top: 70px;
+}
+
+.color-glass {
+  background: #2B1716;
+}
+
+.glass-ear-left {
+  width: 14px;
+  height: 7.2px;
+  top: 103px;
+  left: 200px;
+}
+
+.glass-left-l {
+  border-radius: 7px;
+  width: 4px;
+  height: 20px;
+  top: 98px;
+  left: 214px;
+}
+
+.glass-left-top {
+  border-radius: 7px;
+  width: 20px;
+  height: 4px;
+  top: 98px;
+  left: 214px;
+}
+
+.glass-left-r {
+  border-radius: 7px;
+  width: 4px;
+  height: 20px;
+  top: 98px;
+  left: 231px;
+}
+
+.glass-left-b {
+  border-radius: 7px;
+  width: 20px;
+  height: 4px;
+  top: 114px;
+  left: 214px;
+}
+
+.glass-ear-right {
+  width: 14px;
+  height: 7.2px;
+  top: 103px;
+  left: 268px;
+}
+
+.glass-right-l {
+  border-radius: 7px;
+  width: 4px;
+  height: 20px;
+  top: 98px;
+  left: 248px;
+}
+
+.glass-right-top {
+  border-radius: 7px;
+  width: 20px;
+  height: 4px;
+  top: 98px;
+  left: 248px;
+}
+
+.glass-right-r {
+  border-radius: 7px;
+  width: 4px;
+  height: 20px;
+  top: 98px;
+  left: 264px;
+}
+
+.glass-right-b {
+  border-radius: 7px;
+  width: 20px;
+  height: 4px;
+  top: 114px;
+  left: 248px;
+}
+
+.glass-nose {
+  width: 15px;
+  height: 4px;
+  top: 105px;
+  left: 233px;
+}
+
+.left-ear {
+  border-radius: 8px;
+  width: 12px;
+  height: 28px;
+  top: 105px;
+  left: 191px;
+  z-index: 2;
+}
+
+.right-ear {
+  border-radius: 20px;
+  width: 8px;
+  height: 22px;
+  top: 107px;
+  left: 279px;
+  z-index: 2;
+}
