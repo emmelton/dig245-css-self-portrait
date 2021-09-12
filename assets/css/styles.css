@@ -7,63 +7,85 @@ div{
 }
 
 .face {
+  border-radius: 30px;
   width: 85px;
-  height: 110px;
-  top: 58px;
+  height: 70px;
+  top: 70px;
   left: 200px;
+  border-radius: 20%
 }
+
+/* CHIN */
 
 .chin {
   border-radius: 7px;
-  width: 56px;
-  height: 80px;
-  left: 213px;
-  top: 95px;
+  width: 60px;
+  height: 74px;
+  left: 212px;
+  top: 85px;
+  border-radius: 30%;
 }
 
 .chin-left {
   border-radius: 7px;
-  transform: rotate(28deg);
-  width: 23px;
-  height: 30px;
+  transform: rotate(30deg);
+  width: 30px;
+  height: 23px;
   left: 205px;
-  top: 143px;
+  top: 132px;
+  border-radius: 30%;
 }
 
 .chin-right {
   border-radius: 7px;
   transform: rotate(156deg);
-  width: 23px;
-  height: 30px;
-  left: 256px;
-  top: 143px;
+  width: 40px;
+  height: 28px;
+  left: 240px;
+  top: 128px;
+  border-radius: 30%;
 }
+
+.chin-bottom {
+  border-radius: 7px;
+  transform: rotate(90deg);
+  width: 8px;
+  height: 22px;
+  left: 238px;
+  top: 147px;
+  border-radius: 40%;
+}
+
+/* HAIR */
 
 .color-hair {
   background: #292021;
 }
 
 .top-hair {
-  width: 103px;
-  height: 15px;
-  top: 58px;
-  left: 190px;
+  width: 93px;
+  height: 26px;
+  top: 56px;
+  left: 194px;
+  border-radius: 65%;
 }
 
 .right-hair-main {
   border-radius: 24px;
-  width: 22px;
-  height: 157px;
-  top: 58px;
-  left: 181px;
+  width: 20px;
+  height: 143px;
+  top: 67px;
+  left: 188px;
+  border-radius: 35%;
 }
 
 .left-hair-main {
   border-radius: 24px;
-  width: 22px;
-  height: 157px;
-  top: 58px;
-  left: 282px;
+  width: 20px;
+  height: 143px;
+  top: 67px;
+  left: 273px;
+  border-radius: 35%;
 }
 
 .left-hair-corner {
@@ -71,14 +93,14 @@ div{
   transform: rotate(169deg);
   width: 78.3px;
   height: 16px;
-  left: 189px;
+  left: 192px;
   top: 64px;
 }
 
 .right-hair-corner {
   border-radius: 7px;
   transform: rotate(60deg);
-  width: 34.3px;
+  width: 32.3px;
   height: 10px;
   left: 263px;
   top: 70px;
@@ -88,11 +110,16 @@ div{
   background: #2B1716;
 }
 
+.color-glass-b {
+  background: #F7DCD1;
+}
+
 .glass-ear-left {
   width: 14px;
   height: 7.2px;
   top: 103px;
   left: 200px;
+  z-index: 2;
 }
 
 .glass-left-l {
@@ -109,6 +136,7 @@ div{
   height: 4px;
   top: 98px;
   left: 214px;
+  z-index: 3;
 }
 
 .glass-left-r {
@@ -117,7 +145,7 @@ div{
   height: 20px;
   top: 98px;
   left: 231px;
-  z-index: 3;
+  z-index: 2;
 }
 
 .glass-left-b {
@@ -141,7 +169,7 @@ div{
   height: 20px;
   top: 98px;
   left: 248px;
-  z-index: 3;
+  z-index: 2;
 }
 
 .glass-right-top {
@@ -150,6 +178,7 @@ div{
   height: 4px;
   top: 98px;
   left: 248px;
+  z-index: 3;
 }
 
 .glass-right-r {
@@ -176,21 +205,23 @@ div{
   z-index: 3;
 }
 
+/* EAR */
+
 .left-ear {
   border-radius: 8px;
   width: 12px;
   height: 28px;
   top: 105px;
-  left: 191px;
+  left: 196px;
   z-index: 2;
 }
 
 .right-ear {
   border-radius: 20px;
-  width: 8px;
-  height: 22px;
-  top: 107px;
-  left: 279px;
+  width: 6px;
+  height: 20px;
+  top: 108px;
+  left: 273px;
   z-index: 2;
 }
 
@@ -201,31 +232,31 @@ div{
 }
 
 .right-brow1 {
-  width: 22px;
+  width: 20px;
   height: 5px;
   top: 91px;
-  left: 213px;
+  left: 215px;
 }
 
 .right-brow2 {
   width: 9px;
   height: 5px;
   top: 92px;
-  left: 209px;
+  left: 211px;
 }
 
 .left-brow1 {
   width: 22px;
   height: 5px;
   top: 91px;
-  left: 248px;
+  left: 246px;
 }
 
 .left-brow2 {
   width: 9px;
   height: 5px;
   top: 92px;
-  left: 265px;
+  left: 263px;
 }
 
 /*NOSE*/
@@ -236,21 +267,39 @@ div{
 
 .n1 {
   width: 9px;
-  height: 25px;
-  top: 99px;
+  height: 17px;
+  top: 101px;
   left: 237px;
 }
 
 .n2 {
-  width: 13px;
-  height: 10px;
-  top: 115px;
-  left: 235px;
+  width: 11px;
+  height: 6px;
+  top: 117px;
+  left: 236px;
 }
 
 .n3 {
-  width: 17px;
+  width: 14px;
+  height: 4px;
+  top: 120px;
+  left: 234.5px;
+}
+
+/* MOUTH */
+
+.mouth-color{
+  background: #d29985;
+}
+
+.smile {
+  width: 30px;
   height: 6px;
-  top: 122px;
-  left: 233px;
+  transform: rotate(180deg);
+  position: absolute;
+  top: 139px;
+  left: 226px;
+  border: solid 1px #000;
+  border-radius: 80%/10px 10px 0 0;
+  z-index: 3;
 }
